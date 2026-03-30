@@ -1,18 +1,25 @@
-# Student Performance Analysis
+# Student Performance Analysis and Prediction
 
-This project analyzes student academic performance using Python.
+This project analyzes student academic performance and builds a machine learning model to predict final grades.
 
-## Key Features
-- Data analysis using Pandas
-- Visualization using Matplotlib
+## Features
+- Exploratory Data Analysis using Pandas
+- Data visualization using Matplotlib
 - Study time vs performance analysis
-- Correlation between grades (G1, G2, G3)
+- Correlation analysis between grades
+- Linear Regression model for prediction
 
-## Insights
-- Strong correlation between early and final grades
-- Study time has a noticeable impact on performance
+## Machine Learning
+- Input: G1, G2 (previous grades)
+- Output: G3 (final grade)
+
+## Key Insights
+- Strong correlation between G1, G2, and G3
+- Study time has a noticeable effect on performance
+- Model predictions closely follow actual grades
 
 ## Tools Used
 - Python
 - Pandas
 - Matplotlib
+- Scikit-learn
